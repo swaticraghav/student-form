@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Student Form</title>
+	</head>
+	<body>
+		<h1>Student Form</h1>
+		<form action="student-response.jsp">
+			First Name - <input type="text" name="firstName"/> <br>
+			Last Name - <input type="text" name="lastName"/> <br>
+			Regions - 
+			<select name="region">
+				<option>India</option>
+				<option>USA</option>
+				<option>New Zealand</option>
+				<option>Norway</option>
+				<option>Switzerland</option>
+				<option>Maldives</option>
+				<option>Nepal</option>
+				<option>Thailand</option>
+				<option>Japan</option>
+				<option>Iceland</option>
+				<option>Greenland</option>
+			</select>
+			
+			Student's favourite programming Language:  
+			<input type="radio" name="programmingLanguage" value="JAVA">JAVA 
+			<input type="radio" name="programmingLanguage" value="PHP">PHP 
+			<input type="radio" name="programmingLanguage" value="Ruby">RUBY 
+			<input type="radio" name="programmingLanguage" value="C#">C#
+			
+			favourite Book:
+			<input type="checkbox" name="optedBook" value="bookA"> Alchemist
+			<input type="checkbox" name="optedBook" value="bookB"> Mr. Sampath
+			<input type="checkbox" name="optedBook" value="bookC"> White Tiger
+			<input type="checkbox" name="optedBook" value="bookD"> Pride and Prejudice
+			
+			<input type="submit" value="Submit"/>
+		</form>
+		
+	</body>
+</html>
